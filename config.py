@@ -1,4 +1,4 @@
-DATA_DIR = "../input/images"
+DATA_DIR = "input/images"
 BATCH_SIZE = 8
 IMAGE_WIDTH = 300
 IMAGE_HEIGHT = 300

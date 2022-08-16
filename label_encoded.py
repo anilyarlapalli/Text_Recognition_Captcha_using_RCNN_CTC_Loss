@@ -16,7 +16,7 @@ import pandas as pd
 
 
 def encode_data():
-    df = pd.read_excel(r"../input/labels/captcha_labels.xlsx", engine='openpyxl')
+    df = pd.read_excel(r"input/labels/captcha_labels.xlsx", engine='openpyxl')
 
     image_files = df["image_filepaths"]
     image_files = np.array(image_files)
